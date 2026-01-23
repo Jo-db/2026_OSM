@@ -1,0 +1,17 @@
+changeset_id,action,obj_type,obj_id,cur_version,prev_version,reason,url
+43853325,modify,node,2298686890,2,1,need_before_state,https://api.openstreetmap.org/api/0.6/node/2298686890/1
+43853325,modify,node,4115057846,2,1,need_before_state,https://api.openstreetmap.org/api/0.6/node/4115057846/1
+43853325,modify,way,220780316,2,1,need_before_state,https://api.openstreetmap.org/api/0.6/way/220780316/1
+43853325,modify,way,220780311,3,2,need_before_state,https://api.openstreetmap.org/api/0.6/way/220780311/2
+43936296,modify,way,87102262,10,9,need_before_state,https://api.openstreetmap.org/api/0.6/way/87102262/9
+43956541,modify,node,1732564683,2,1,need_before_state,https://api.openstreetmap.org/api/0.6/node/1732564683/1
+44081078,modify,node,3367156759,2,1,need_before_state,https://api.openstreetmap.org/api/0.6/node/3367156759/1
+44113492,modify,node,17859918,26,25,need_before_state,https://api.openstreetmap.org/api/0.6/node/17859918/25
+44113492,modify,node,3048296942,2,1,need_before_state,https://api.openstreetmap.org/api/0.6/node/3048296942/1
+44258535,modify,node,3894575819,3,2,need_before_state,https://api.openstreetmap.org/api/0.6/node/3894575819/2
+44462845,modify,way,400874911,4,3,need_before_state,https://api.openstreetmap.org/api/0.6/way/400874911/3
+44722906,modify,way,435724079,2,1,need_before_state,https://api.openstreetmap.org/api/0.6/way/435724079/1
+44722906,modify,node,28289985,6,5,need_before_state,https://api.openstreetmap.org/api/0.6/node/28289985/5
+44802035,modify,node,4582390873,2,1,need_before_state,https://api.openstreetmap.org/api/0.6/node/4582390873/1
+44802035,modify,way,462909807,2,1,need_before_state,https://api.openstreetmap.org/api/0.6/way/462909807/1
+44802035,modify,way,133599492,12,11,need_before_state,https://api.openstreetmap.org/api/0.6/way/133599492/11
