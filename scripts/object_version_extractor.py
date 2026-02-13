@@ -57,6 +57,7 @@ class ObjectVersionExtractor:
             "obj_type": "node",
             "obj_id": int(node_elem.get("id")),
             "version": int(node_elem.get("version")),
+            "timestamp": node_elem.get("timestamp"),
             "source": "prev_version_api"
         }
         
@@ -82,6 +83,7 @@ class ObjectVersionExtractor:
             "obj_type": "way",
             "obj_id": int(way_elem.get("id")),
             "version": int(way_elem.get("version")),
+            "timestamp": way_elem.get("timestamp"),
             "source": "prev_version_api"
         }
         
@@ -99,12 +101,13 @@ class ObjectVersionExtractor:
             
         return obj
     
+    # Relation 버전 정보 파싱
     def parse_relation_version(self, rel_elem: ET.Element) -> Dict:
-        """Relation 버전 정보를 파싱합니다."""
         obj = {
             "obj_type": "relation",
             "obj_id": int(rel_elem.get("id")),
             "version": int(rel_elem.get("version")),
+            "timestamp": rel_elem.get("timestamp"),
             "source": "prev_version_api"
         }
         
