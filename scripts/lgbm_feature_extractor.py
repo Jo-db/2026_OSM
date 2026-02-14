@@ -18,7 +18,7 @@ class LGBMFeatureExtractor:
     - inf/-inf도 최종적으로 0 처리
     """
 
-    def __init__(self, data_dir="output"):
+    def __init__(self, data_dir="../output"):
         current_dir = os.path.dirname(os.path.abspath(__file__))
         self.data_dir = os.path.join(current_dir, data_dir)
 

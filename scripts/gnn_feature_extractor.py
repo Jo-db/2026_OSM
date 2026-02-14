@@ -171,16 +171,16 @@ def build_labels(nodes_df):
 # 메인
 
 if __name__ == "__main__":
-    objects = load_jsonl("objects.jsonl")
-    object_versions = load_jsonl("object_versions.jsonl")
+    objects = load_jsonl("output/objects.jsonl")
+    object_versions = load_jsonl("output/object_versions.jsonl")
 
     nodes_df = build_node_features(objects, object_versions)
-    nodes_df.to_csv("nodes.csv", index=False)
+    nodes_df.to_csv("output/nodes.csv", index=False)
 
     edges_df = build_edges(objects)
-    edges_df.to_csv("edges.csv", index=False)
+    edges_df.to_csv("output/edges.csv", index=False)
 
     labels_df = build_labels(nodes_df)
-    labels_df.to_csv("labels.csv", index=False)
+    labels_df.to_csv("output/labels.csv", index=False)
 
     print(" nodes.csv, edges.csv, labels.csv 생성 완료!")
