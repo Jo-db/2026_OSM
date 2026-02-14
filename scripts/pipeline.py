@@ -8,9 +8,8 @@ from object_version_extractor import ObjectVersionExtractor
 
 
 DATASET_PATHS = {
-    "changesets": Path("./test-data/changesets.csv"),
-    "ovid": Path("./test-data/ovid_labels.tsv"),
-    "training": Path("./training-data/labels.tsv"),
+    "changesets": Path("./dataset/changesets.csv"),
+    "ovid": Path("./dataset/ovid_labels.tsv"),
 }
 
 
